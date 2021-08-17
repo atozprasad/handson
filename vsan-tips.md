@@ -1,5 +1,6 @@
 #VSAN TIPS N TRICKS
 
+Doc is running notes of various hands-on commands for vsan
 
 ** Removing stale objects from VSAN data store **
 Stale objects are VSAN objects from the previous life of ESXI server, and will be shown as error in the ESXI Skyline health report for not able to refer these obejcts anymore. We need to delete these stale objects in order to make VSAN healthy and usable. 
